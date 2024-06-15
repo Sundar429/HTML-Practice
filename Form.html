@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    
+    <!-- <form method="get">
+     Username: <br>  
+    <input type="text" name="username" placeholder="Enter the username" maxlength="20 "> <br> <br>
+    Password: <br>
+    <input type="password" name="password" placeholder="Enter the password"> <br> <br>
+    Comments: <br>
+    <textarea name="Comments" id="Comments" cols="20" rows="5" placeholder="Enter your Comments"></textarea> <br> <br>
+    <input type="submit" value="Send" name="submit-buttton">
+    
+    </form> -->
+    <h1>Forms</h1>
+    <fieldset>
+        <legend>Basic Details</legend>
+     
+        <form method="get" enctype="multipart/form-data">
+            <label for="name"> Name:</label>
+            <br>
+            <input type="text" name="name" id="name" maxlength="20 "> <br> <br>
+            <label for="age">Age</label> <br>
+            <input type="number" name="age" id="age" min="18" max="99"> <br>  <br>
+
+            <label for="dob">Date of Birth:</label> <br>
+            <input type="date" name="dob" id="dob"> <br> <br>
+            
+            <label for="email_id">Email:</label> <br>
+            <input type="email" name="email_id" id="email_id" required> <br> <br>
+            <label for="password">Password: </label> <br>
+            <input type="password" name="password" id="password" placeholder="Enter the password"> <br> <br>
+            <label for="subject">Subject:</label> <br>
+            <input type="text" name="subject" id="subject" maxlength="20 "> <br> <br>
+            <label for="Message"> Message:</label> <br>
+            <textarea name="Message" id="Message" cols="20" rows="5" placeholder="Enter your Message"></textarea> <br> <br>
+            I want to learn <br>
+            <input type="radio" name="learn_first" value="html" id="html" checked> <label for="html">HTML</label>
+            <input type="radio" name="learn_first" value="css" id="css"> <label for="css">CSS</label>
+            <input type="radio" name="learn_first" value="js" id="js"><label for="js">JS </label> <br> <br>
+
+            <label for="rating">How much rating does you give for your programming skills:</label> <br>
+            <input type="range" name="rating" id="rating" step="1" min="0" max="10"> <br> <br>
+    
+            My Hobbies are  <br>
+            <input type="checkbox" name="Hobbies[]" value="music" id="music">Music <label for="music"></label>
+            <input type="checkbox" name="Hobbies[]" value="gaming" id="gaming">Gaming<label for="gaming"></label>
+            <input type="checkbox" name="Hobbies[]" value="photography" id="photography">Photography<label for="photography"></label> <br> <br>
+    
+            <label for="dob">Date of Birth:</label> <br>
+            <select name="dob" id="dob">
+                <option value="">Select Date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select> <br> <br>
+    
+            <label for="resume">Your Resume:</label> <br>
+            <input type="file" name="resume" id="resume"><br> <br>
+            <input type="submit" value="Send" name="submit-buttton">
+    
+        </form>
+
+    </fieldset>
+    
+
+</body>
+
+</html>

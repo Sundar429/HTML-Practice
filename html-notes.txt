@@ -1,0 +1,19 @@
+Three layers of web 
+1.structure layer
+2.presentation layer
+3.behaviour layer
+
+structure layer
+
+-represensts content of the web page 
+-html is responsible to this layer
+
+presentation layer
+
+-decides the look and feel of the web page
+-css is responsible for this layer
+
+behaviour layer
+
+-decides reaction for the user interaction
+-js is responsible for this layer
